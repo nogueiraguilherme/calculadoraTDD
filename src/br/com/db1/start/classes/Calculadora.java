@@ -8,8 +8,20 @@ public class Calculadora {
 		return valor1 + valor2;
 	}
 
-	public double multiplicar() {
+	public Double multiplicar() {
 		return valor1 * valor2;
+	}
+
+	public Double dividir() {
+		return valor1 / valor2;
+	}
+
+	public double subtrair() {
+		return valor1 - valor2;
+	}
+	public void zerar(){
+		valor1 = 0d;
+		valor2 = 0d;
 	}
 
 	public double getValor1() {
